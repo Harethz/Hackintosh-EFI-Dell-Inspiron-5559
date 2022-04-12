@@ -45,7 +45,7 @@ Check the setup guide below to make sure install macOs successfully.
 - Boot Chime
 - SD Card Reader
 
-
+[I'm an inline-style link](https://www.google.com)
 # Changes You Need To Make :-
 <details><summary>Generate a Serial</summary>
  <ol>1. Download and open [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS/).</ol>
