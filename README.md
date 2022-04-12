@@ -48,10 +48,10 @@ Check the setup guide below to make sure install macOs successfully.
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS/)
 # Changes You Need To Make :-
 <details><summary>Generate a Serial</summary>
- <ol>1. Download and open GenSMBIOS[https://github.com/corpnewt/GenSMBIOS/].</ol>
+ <ol>1. Download and open GenSMBIOS https://github.com/corpnewt/GenSMBIOS/.</ol>
  <ol>2. Select 3 to Genrate SMBios with ROM</ol>
  <ol>3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM</ol>
- <ol>4. Check the Serial validity on [Apple's check coverage](https://checkcoverage.apple.com/in/en/). We have to use only invalid serial</ol>
+ <ol>4. Check the Serial validity on Apple's check coverage https://checkcoverage.apple.com/in/en/ We have to use only invalid serial</ol>
  <ol>5. Copy the serial in the config
   <p>   - Type Goes in Generic -> SystemProductName</p>
   <p>   - Serial goes in Generic -> SystemSerialNumber</p>
