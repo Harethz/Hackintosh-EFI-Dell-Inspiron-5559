@@ -3,7 +3,7 @@
 Check the setup guide below to make sure install macOs successfully.
 
 # Result 
-<center>![image](https://user-images.githubusercontent.com/103339137/162856527-c54d0173-04eb-453b-88e8-1d5fdfbc561a.png)</center>
+![image](https://user-images.githubusercontent.com/103339137/162856527-c54d0173-04eb-453b-88e8-1d5fdfbc561a.png)
 ![image](https://user-images.githubusercontent.com/103339137/162856449-2161f3ee-4539-444a-a217-6547cc70bfe5.png)
 ![image](https://user-images.githubusercontent.com/103339137/162856547-55255ed3-9688-410c-9a41-4ce66a482798.png)
 
@@ -48,11 +48,12 @@ Check the setup guide below to make sure install macOs successfully.
  <ol>3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM</ol>
  <ol>4. Check the Serial validity on Apple's check coverage We have to use only invalid serial</ol>
  <ol>5. Copy the serial in the config
-   <il> - Type Goes in Generic -> SystemProductName</il>
-   <il> - Serial goes in Generic -> SystemSerialNumber</il>
-   <il> - Board Serial goes in Generic -> MLB</il>
-   <il> - SmUUID part goes in Generic -> SystemUUID</il>
-   <il> - Apple Rom goes in Generic -> ROM</il></ol>
+   <li> - Type Goes in Generic -> SystemProductName</li>
+   <li> - Serial goes in Generic -> SystemSerialNumber</li>
+   <li> - Board Serial goes in Generic -> MLB</li>
+   <li> - SmUUID part goes in Generic -> SystemUUID</li>
+   <li> - Apple Rom goes in Generic -> ROM</li>
+ </ol>
  </details>
  
 # Not working
