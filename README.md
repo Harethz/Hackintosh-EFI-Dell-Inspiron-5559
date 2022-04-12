@@ -45,7 +45,7 @@ Check the setup guide below to make sure install macOs successfully.
 - Boot Chime
 - SD Card Reader
 
-[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS/)
+
 # Changes You Need To Make :-
 <details><summary>Generate a Serial</summary>
  <ol>1. Download and open GenSMBIOS https://github.com/corpnewt/GenSMBIOS/.</ol>
@@ -62,4 +62,4 @@ Check the setup guide below to make sure install macOs successfully.
  </details>
  
 # Not working
-## Amd Radeon R5 M335
+### Amd Radeon R5 M335
