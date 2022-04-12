@@ -43,17 +43,17 @@ Check the setup guide below to make sure install macOs successfully.
 
 # Changes You Need To Make :-
 <details><summary>Generate a Serial</summary>
- 1- Download and open GenSMBIOS
- 2- Select 3 to Genrate SMBios with ROM
- 3- Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM
- 4- Check the Serial validity on Apple's check coverage We have to use only invalid serial
- 5- Copy the serial in the config
-  - Type Goes in Generic -> SystemProductName
-  - Serial goes in Generic -> SystemSerialNumber
-  - Board Serial goes in Generic -> MLB
-  - SmUUID part goes in Generic -> SystemUUID
-  - Apple Rom goes in Generic -> ROM
- 
+ 1. Download and open GenSMBIOS
+ 2. Select 3 to Genrate SMBios with ROM
+ 3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM
+ 4. Check the Serial validity on Apple's check coverage We have to use only invalid serial
+ 5. Copy the serial in the config
+    - Type Goes in Generic -> SystemProductName
+    - Serial goes in Generic -> SystemSerialNumber
+    - Board Serial goes in Generic -> MLB
+    - SmUUID part goes in Generic -> SystemUUID
+    - Apple Rom goes in Generic -> ROM
+ </details>
  
 # Not working
 Amd Radeon R5 M335
