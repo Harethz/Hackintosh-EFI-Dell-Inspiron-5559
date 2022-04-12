@@ -57,3 +57,4 @@ Check the setup guide below to make sure install macOs successfully.
  
 # Not working
 Amd Radeon R5 M335
+
