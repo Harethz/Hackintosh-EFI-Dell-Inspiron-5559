@@ -48,11 +48,11 @@ Check the setup guide below to make sure install macOs successfully.
  <ol>3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM</ol>
  <ol>4. Check the Serial validity on Apple's check coverage We have to use only invalid serial</ol>
  <ol>5. Copy the serial in the config
-  <ul>  - Type Goes in Generic -> SystemProductName
-        - Serial goes in Generic -> SystemSerialNumber
-        - Board Serial goes in Generic -> MLB</li>
-        - SmUUID part goes in Generic -> SystemUUID
-        - Apple Rom goes in Generic -> ROM</ul>
+  <li> ::marker  - Type Goes in Generic -> SystemProductName</li>
+  <li> ::marker     - Serial goes in Generic -> SystemSerialNumber</li>
+  <li> ::marker    - Board Serial goes in Generic -> MLB</li>
+  <li> ::marker    - SmUUID part goes in Generic -> SystemUUID</li>
+  <li> ::marker    - Apple Rom goes in Generic -> ROM</ul></li>
  </ol>
  </details>
  
