@@ -3,7 +3,7 @@
 Check the setup guide below to make sure install macOs successfully.
 
 # Result 
-![image](https://user-images.githubusercontent.com/103339137/162856527-c54d0173-04eb-453b-88e8-1d5fdfbc561a.png)
+<center>![image](https://user-images.githubusercontent.com/103339137/162856527-c54d0173-04eb-453b-88e8-1d5fdfbc561a.png)</center>
 ![image](https://user-images.githubusercontent.com/103339137/162856449-2161f3ee-4539-444a-a217-6547cc70bfe5.png)
 ![image](https://user-images.githubusercontent.com/103339137/162856547-55255ed3-9688-410c-9a41-4ce66a482798.png)
 
@@ -43,16 +43,16 @@ Check the setup guide below to make sure install macOs successfully.
 
 # Changes You Need To Make :-
 <details><summary>Generate a Serial</summary>
- 1. Download and open GenSMBIOS
- 2. Select 3 to Genrate SMBios with ROM
- 3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM
- 4. Check the Serial validity on Apple's check coverage We have to use only invalid serial
- 5. Copy the serial in the config
-    - Type Goes in Generic -> SystemProductName
-    - Serial goes in Generic -> SystemSerialNumber
-    - Board Serial goes in Generic -> MLB
-    - SmUUID part goes in Generic -> SystemUUID
-    - Apple Rom goes in Generic -> ROM
+ <ol>1. Download and open GenSMBIOS</ol>
+ <ol>2. Select 3 to Genrate SMBios with ROM</ol>
+ <ol>3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM</ol>
+ <ol>4. Check the Serial validity on Apple's check coverage We have to use only invalid serial</ol>
+ <ol>5. Copy the serial in the config
+   <il> - Type Goes in Generic -> SystemProductName</il>
+   <il> - Serial goes in Generic -> SystemSerialNumber</il>
+   <il> - Board Serial goes in Generic -> MLB</il>
+   <il> - SmUUID part goes in Generic -> SystemUUID</il>
+   <il> - Apple Rom goes in Generic -> ROM</il></ol>
  </details>
  
 # Not working
