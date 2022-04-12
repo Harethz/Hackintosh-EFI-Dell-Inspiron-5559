@@ -2,6 +2,11 @@
 ## Hackintosh (OpenCore) Dell Inspiron 15 5559 i7 6500u | Tested on Bigsur, Monterey
 Check the setup guide below to make sure install macOs successfully.
 
+* Do Not Clone And Use The EFI.
+* Download From Release Tab
+* This EFI is Tested
+### Latest Stable MacOS Version supported - 12.3.1
+
 # Result 
 ![image](https://user-images.githubusercontent.com/103339137/162856527-c54d0173-04eb-453b-88e8-1d5fdfbc561a.png)
 ![image](https://user-images.githubusercontent.com/103339137/162856449-2161f3ee-4539-444a-a217-6547cc70bfe5.png)
