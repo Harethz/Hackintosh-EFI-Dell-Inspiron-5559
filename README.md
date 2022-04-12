@@ -24,6 +24,11 @@ Check the setup guide below to make sure install macOs successfully.
 | Storage         | SSD 950GB                      |
 | Graphics        | Intel HD Graphics 520          |
 | Display         | LED HD 1920X1080 (15.6 inches) |
+| Network | Intel Dual Band Wireless-AC 3160 |
+| Bluetooth | Intel Bluetooth |
+| Ethernet | RealTek RTL810xE |
+| Audio | ALC255 Realtek (ID=11) |
+
 - macOS Bigsur 11.6.5 (working)
 - macOS Monterey 12.3.1 (working)
 - OpenCore 0.7.9
@@ -32,9 +37,9 @@ Check the setup guide below to make sure install macOs successfully.
 # What's Working :
 
 - Intel HD Graphics 520
--Audio :
-        Internal Speaker out, Headphone out
-        Internal Mic In, Headphone Mic in
+- Audio :
+  * Internal Speaker out, Headphone out
+  * Internal Mic In, Headphone Mic in
 - Battery Indicator
 - Sleep + Wake + Restart + Shutdown
 - Brightness Slider and Brightness Fn key [ F11, F12]
