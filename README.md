@@ -24,8 +24,8 @@ Check the setup guide below to make sure install macOs successfully.
 | Storage         | SSD 950GB                      |
 | Graphics        | Intel HD Graphics 520          |
 | Display         | LED HD 1920X1080 (15.6 inches) |
-- macOS Bigsur 11.6 (working)
-- macOS Monterey 12.3.1
+- macOS Bigsur 11.6.5 (working)
+- macOS Monterey 12.3.1 (working)
 - OpenCore 0.7.9
 
 #
