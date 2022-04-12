@@ -24,6 +24,11 @@ Check the setup guide below to make sure install macOs successfully.
 | Storage         | SSD 950GB                      |
 | Graphics        | Intel HD Graphics 520          |
 | Display         | LED HD 1920X1080 (15.6 inches) |
+| Network | Intel Dual Band Wireless-AC 3160 |
+| Bluetooth | Intel Bluetooth |
+| Ethernet | RealTek RTL810xE |
+| Audio | ALC255 Realtek (ID=11) |
+
 - macOS Bigsur 11.6.5 (working)
 - macOS Monterey 12.3.1 (working)
 - OpenCore 0.7.9
@@ -32,9 +37,9 @@ Check the setup guide below to make sure install macOs successfully.
 # What's Working :
 
 - Intel HD Graphics 520
--Audio :
-        Internal Speaker out, Headphone out
-        Internal Mic In, Headphone Mic in
+- Audio :
+  * Internal Speaker out, Headphone out
+  * Internal Mic In, Headphone Mic in
 - Battery Indicator
 - Sleep + Wake + Restart + Shutdown
 - Brightness Slider and Brightness Fn key [ F11, F12]
@@ -48,18 +53,17 @@ Check the setup guide below to make sure install macOs successfully.
 
 # Changes You Need To Make :-
 <details><summary>Generate a Serial</summary>
- <ol>1. Download and open <a herf="https://github.com/corpnewt/GenSMBIOS">GenSMBIOS</a></ol>
- <ol>2. Select 3 to Genrate SMBios with ROM</ol>
- <ol>3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM</ol>
- <ol>4. Check the Serial validity on <a herf="https://checkcoverage.apple.com/in/en/">Apple's check coverage</a> We have to use only invalid serial</ol>
- <ol>5. Copy the serial in the config
-  <p>   - Type Goes in Generic -> SystemProductName</p>
-  <p>   - Serial goes in Generic -> SystemSerialNumber</p>
-  <p>   - Board Serial goes in Generic -> MLB</li>
-  <p>   - SmUUID part goes in Generic -> SystemUUID</p>
-  <p>   - Apple Rom goes in Generic -> ROM</ul></p>
- </ol>
+ <li> 1. Download and open GenSMBIOS https://github.com/corpnewt/GenSMBIOS/.</li>
+ <li> 2. Select 3 to Genrate SMBios with ROM</ol>
+ <li> 3. Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM</li>
+ <li> 4. Check the Serial validity on Apple's check coverage https://checkcoverage.apple.com/in/en/ We have to use only invalid serial</li>
+ <li> 5. Copy the serial in the config
+  <p> * Type Goes in Generic -> SystemProductName</p>
+  <p> * Serial goes in Generic -> SystemSerialNumber</p>
+  <p> * Board Serial goes in Generic -> MLB</li>
+  <p> * SmUUID part goes in Generic -> SystemUUID</p>
+  <p> *  Apple Rom goes in Generic -> ROM</p>
  </details>
  
 # Not working
-## Amd Radeon R5 M335
+### Amd Radeon R5 M335
