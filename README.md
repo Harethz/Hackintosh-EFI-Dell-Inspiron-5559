@@ -22,5 +22,38 @@ Check the setup guide below to make sure install macOs successfully.
 - macOS Bigsur 11.6 (working)
 - macOS Monterey 12.3.1
 - OpenCore 0.7.9
+
+#
+# What's Working :
+
+- Intel HD Graphics 520
+-Audio :
+        Internal Speaker out, Headphone out
+        Internal Mic In, Headphone Mic in
+- Battery Indicator
+- Sleep + Wake + Restart + Shutdown
+- Brightness Slider and Brightness Fn key [ F11, F12]
+- Trackpad with both I2CHID And PS/2
+- HDMI + HDMI Audio
+- Ethernet
+- WIFI + Bluetooth
+- Boot Chime
+- SD Card Reader
+
+
+# Changes You Need To Make :-
+<details><summary>Generate a Serial</summary>
+ 1- Download and open GenSMBIOS
+ 2- Select 3 to Genrate SMBios with ROM
+ 3- Now Type "MacBookPro13,2" this will genarate 5 SMBios with ROM
+ 4- Check the Serial validity on Apple's check coverage We have to use only invalid serial
+ 5- Copy the serial in the config
+  - Type Goes in Generic -> SystemProductName
+  - Serial goes in Generic -> SystemSerialNumber
+  - Board Serial goes in Generic -> MLB
+  - SmUUID part goes in Generic -> SystemUUID
+  - Apple Rom goes in Generic -> ROM
+ 
+ 
 # Not working
 Amd Radeon R5 M335
